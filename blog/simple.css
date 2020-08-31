@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    border-radius: 5px;
+}
+header{
+    background-color: #f1f1f1;
+    margin-bottom: 50px;
+    height: 250px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.head-cont{
+    height: 50px;
+}
+.head-cont p{
+    color: #777;
+    padding-top: 30px;
+}
+.header-tool{
+    width: 40px;
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 0 3px #333;
+}
+.header-tool i{
+    color: #666;
+    margin-top: 15px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: color .5s;
+    
+}
+.header-tool i:hover{
+    color: mediumblue;
+}
+/*-------------------------------------------------------------------*/
+/*Start section2*/
+
+
+.section2 .sec-content .desc .cont-par,.section2 .sec-content .sec2 p{
+    line-height: 2;
+    font-size: 14px;
+    color: #969696;
+}
+.section2 .sec-content .sec2 .cont-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/*End section2*/
+/*-------------------------------------------------------------------*/
+/*Start section5*/
+.section5{
+    background-color: #403d38;
+    height: 470px;
+}
+.section5 p{
+    color: #969696;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+.section5 p:first-of-type{
+    margin: 40px 0 35px 0;
+}
+.section5 h3{
+    color: #fff;
+    font-size: 18px;
+}
+.section5 ul{
+    list-style: none;
+}
+.section5 ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    color: #969696;
+    padding: 15px 0;
+    font-size: 14px;
+}
+.section5 ul li:last-of-type{
+    border-bottom:0;
+}
+.section5 ul li i{
+    padding-right: 5px;
+}
+/*End section5*/
+/*-------------------------------------------------------------------*/
+/*Start Footer*/
+footer{
+    background-color: #353330;
+    color:#777;
+    height: 250px;
+    text-align: center;
+    font-size: 14px;
+}
+/*End Footer*/
